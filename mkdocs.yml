@@ -1,0 +1,7 @@
+site_name: OceanEye Documentation
+site_url: https://oceaneye.github.io
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: blue
