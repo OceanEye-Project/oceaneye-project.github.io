@@ -5,3 +5,13 @@ theme:
   palette:
     scheme: slate
     primary: blue
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - Creating your first project: getting-started/first-project.md
+  - Documentation:
+    - Project Structure: documentation/project.md
+    - Edit Media: documentation/edit-media.md
+    - Model Training: documentation/model-training.md
+
