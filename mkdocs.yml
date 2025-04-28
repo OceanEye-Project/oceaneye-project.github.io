@@ -17,7 +17,15 @@ extra:
     - icon: material/web
       link: https://solidslab.ca/
 repo_url: https://github.com/OceanEye-Project/OceanEye-QT
-
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  
 nav:
   - Home: index.md
   - Getting Started:
