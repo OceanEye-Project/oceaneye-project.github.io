@@ -19,6 +19,8 @@ mkdocs serve
 ```
 Navigate to [127.0.0.1:8000](http://127.0.0.1:8000/)
 
+Edit the files in `docs/` and `mkdocs.yml`
+
 ## Deployment
 
 Deploy the site using the following command:
