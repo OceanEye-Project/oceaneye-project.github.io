@@ -1,13 +1,20 @@
 site_name: OceanEye Documentation
-site_url: https://oceaneye.github.io
+site_url: https://oceaneye-project.github.io/
 theme:
   name: material
   features:
     - navigation.footer
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.expand
   palette:
     scheme: slate
     primary: blue
     accent: deep orange
+  logo: assets/logo.png
+  favicon: assets/logo.png
 extra:
   generator: false
   copyright: Copyright &copy; 2025 SOLIDS Lab, UVic
@@ -16,6 +23,9 @@ extra:
       link: https://github.com/OceanEye-Project/OceanEye-QT
     - icon: material/web
       link: https://solidslab.ca/
+  analytics:
+    provider: google
+    property: G-SJF1C4X2X4
 repo_url: https://github.com/OceanEye-Project/OceanEye-QT
 markdown_extensions:
   - admonition

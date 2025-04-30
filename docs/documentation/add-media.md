@@ -1,5 +1,12 @@
 To add media, click the **Add Media** button located in the main project view. A file dialog will appear, allowing you to select one or more images or videos for import.
 
+Currently, we support the following formats:
+
+- `.MP4`
+- `.MOV`
+- `.PNG`
+- `.JPG`
+
 ### Behavior of Imported Media
 
 #### Images
