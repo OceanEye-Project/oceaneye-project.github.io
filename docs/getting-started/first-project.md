@@ -49,4 +49,16 @@ After configuration, you can begin to add media. Currently, we support the follo
 
 ## Annotating media
 
+Annotations represent instances of a particular object within some image. These may be created by either users or, eventually by a model -- once the user has a trained model, that is. 
+
+Since we may expect some degree of errors in model detections, users may wish to correct the result of a model's work. That is to say: they may wish to add, remove or edit annotations. This functionality is available within currently active projects, either by selecting the **+ New Annotation** option or using the shortcut: **N**. Annotation creation is by drag-and-drop, and the object category ("class") may be selected either by rotating through options via the **space bar**, or manually selecting the type of object in the top-left dropdown **Class** selection.
+
+If you are unhappy with a particular annotation, you may delete it with the **delete** or **backspace** keys.
+
+
+!!! warning
+    Additional object types may not be added after project creation.
+
 ## Model Training
+
+## 
