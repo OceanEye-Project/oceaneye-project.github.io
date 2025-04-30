@@ -34,6 +34,8 @@ nav:
     - Creating your first project: getting-started/first-project.md
   - Documentation:
     - Project Structure: documentation/project.md
+    - Adding Media: documentation/add-media.md
     - Edit Media: documentation/edit-media.md
     - Model Training: documentation/model-training.md
+    - Export Annotations: documentation/export-annotations.md
 
