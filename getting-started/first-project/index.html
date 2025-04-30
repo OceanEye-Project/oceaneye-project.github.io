@@ -398,6 +398,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#editing-media" class="md-nav__link">
+    <span class="md-ellipsis">
+      Editing Media
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#model-training" class="md-nav__link">
     <span class="md-ellipsis">
       Model Training
@@ -407,9 +416,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#exporting-data" class="md-nav__link">
     <span class="md-ellipsis">
-      
+      Exporting Data
     </span>
   </a>
   
@@ -670,6 +679,15 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#editing-media" class="md-nav__link">
+    <span class="md-ellipsis">
+      Editing Media
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#model-training" class="md-nav__link">
     <span class="md-ellipsis">
       Model Training
@@ -679,9 +697,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#_1" class="md-nav__link">
+  <a href="#exporting-data" class="md-nav__link">
     <span class="md-ellipsis">
-      
+      Exporting Data
     </span>
   </a>
   
@@ -755,7 +773,7 @@
 <p class="admonition-title">Tip</p>
 <p>Remember to press "Apply" when you are done!</p>
 </div>
-<h2 id="adding-media">Adding media</h2>
+<h2 id="adding-media"><a href="../../documentation/add-media/">Adding media</a></h2>
 <p>After configuration, you can begin to add media. Currently, we support the following formats:</p>
 <ul>
 <li><code>.MP4</code></li>
@@ -773,14 +791,36 @@
 </div>
 <h2 id="annotating-media">Annotating media</h2>
 <p>Annotations represent instances of a particular object within some image. These may be created by either users or, eventually by a model -- once the user has a trained model, that is. </p>
-<p>Since we may expect some degree of errors in model detections, users may wish to correct the result of a model's work. That is to say: they may wish to add, remove or edit annotations. This functionality is available within currently active projects, either by selecting the <strong>+ New Annotation</strong> option or using the shortcut: <strong>N</strong>. Annotation creation is by drag-and-drop, and the object category ("class") may be selected either by rotating through options via the <strong>space bar</strong>, or manually selecting the type of object in the top-left dropdown <strong>Class</strong> selection.</p>
-<p>If you are unhappy with a particular annotation, you may delete it with the <strong>delete</strong> or <strong>backspace</strong> keys.</p>
+<p>Since we may expect some degree of errors in model detections, users may wish to correct the result of a model's work. That is to say: they may wish to add, remove or edit annotations. This functionality is available within currently active projects, either by selecting the <strong>+ New Annotation</strong> option or using the shortcut: <span class="keys"><kbd class="key-n">N</kbd></span>. Annotation creation is by drag-and-drop, and the object category ("class") may be selected either by rotating through options via the <span class="keys"><kbd class="key-space">Space</kbd></span> key, or manually selecting the type of object in the top-left dropdown <strong>Class</strong> selection.</p>
+<p>If you are unhappy with a particular annotation, you may delete it with the <span class="keys"><kbd class="key-delete">Del</kbd></span> or <span class="keys"><kbd class="key-backspace">Backspace</kbd></span> keys.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Additional object types may not be added after project creation.</p>
 </div>
-<h2 id="model-training">Model Training</h2>
-<h2 id="_1"></h2>
+<h2 id="editing-media"><a href="../../documentation/edit-media/">Editing Media</a></h2>
+<p>While in a project, the <strong>Edit Media</strong> button may be selected to bring up a dialogue showing all media in the project. From here, users may quickly select a variety of images for removal from the project, or clear the project entirely.</p>
+<h2 id="model-training"><a href="../../documentation/model-training/">Model Training</a></h2>
+<p>While training is possible on-CPU, it is strongly recommended to use a CUDA-compatible GPU to ensure time-efficient training. </p>
+<p>Additional dependencies are installed during first training session. </p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>An internet connection is required for first training session in order to download the required depencies for training.</p>
+</div>
+<p>Users must provide a location for the model to be saved and also have the option to configure advances settings such as <strong>base model</strong> for an initial model to be used as a starting point, as well as several more parameters for fine-tuning your training session.</p>
+<h2 id="exporting-data"><a href="../../documentation/export-annotations/">Exporting Data</a></h2>
+<p>Project data can be exported in several formats, from within the <strong>File</strong> menu. The options are as follows:</p>
+<ol>
+<li>
+<p>Export annotation data exports annotations in raw format (CSV, YAML, COCO or JSON) for further analysis.</p>
+</li>
+<li>
+<p>Additionally, media may be exported one-by-one with the annotations drawn-on for later human reference. Selecting this option will open a file selection dialogue where users may select the desired images to export.</p>
+</li>
+</ol>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Both aforementioned exporting techniques allow for filtering by class type - allowing for the minimum amount of data to be saved - as well as exporting without any filter applied.</p>
+</div>
 
 
 

@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#supported-export-formats" class="md-skip">
+        <a href="#export-annotated-images" class="md-skip">
           Skip to content
         </a>
       
@@ -529,6 +529,25 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#export-annotated-images" class="md-nav__link">
+    <span class="md-ellipsis">
+      Export Annotated Images
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#export-annotation-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Export Annotation Data
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Export Annotation Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#supported-export-formats" class="md-nav__link">
     <span class="md-ellipsis">
       Supported Export Formats:
@@ -571,6 +590,11 @@
       YAML
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -643,6 +667,25 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#export-annotated-images" class="md-nav__link">
+    <span class="md-ellipsis">
+      Export Annotated Images
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#export-annotation-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      Export Annotation Data
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Export Annotation Data">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#supported-export-formats" class="md-nav__link">
     <span class="md-ellipsis">
       Supported Export Formats:
@@ -692,6 +735,11 @@
     </nav>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
     </ul>
   
@@ -714,7 +762,12 @@
 
   <h1>Export Annotations</h1>
 
-<p>Annotations can be exported via the <code>File &gt; Export</code> menu.</p>
+<h2 id="export-annotated-images">Export Annotated Images</h2>
+<p>Annotated images can be exported either through the <a href="../edit-media/">Edit Media</a> dialog or directly from the main window.</p>
+<p>To export images via the Edit Media dialog, select the desired images and click on the "Export Selected Images with Annotations" button.</p>
+<p>To export an individual image, navigate to the image you wish to export and choose the <code>File &gt; Export Image</code> option from the menu.</p>
+<h2 id="export-annotation-data">Export Annotation Data</h2>
+<p>Annotations can be exported via the <code>File &gt; Export Data</code> menu.</p>
 <p>The exported data includes the following fields, with one entry per annotation:</p>
 <table>
 <thead>
@@ -754,14 +807,14 @@
 </tr>
 </tbody>
 </table>
-<h2 id="supported-export-formats">Supported Export Formats:</h2>
-<h3 id="csv">CSV</h3>
+<h3 id="supported-export-formats">Supported Export Formats:</h3>
+<h4 id="csv">CSV</h4>
 <p>CSV is the most popular export format. It is a simple, tabular format where each row represents an annotation, and each column corresponds to a field.</p>
-<h3 id="coco">COCO</h3>
+<h4 id="coco">COCO</h4>
 <p>COCO, or Common Objects in Context, is a popular machine-learning dataset format. It organizes annotations into a structured JSON file, including categories, bounding boxes, and image metadata.</p>
-<h3 id="json">JSON</h3>
+<h4 id="json">JSON</h4>
 <p>JSON is a flexible, lightweight data-interchange format. It exports annotations in a structured, hierarchical format, making it easy to integrate with custom pipelines or applications.</p>
-<h3 id="yaml">YAML</h3>
+<h4 id="yaml">YAML</h4>
 <p>YAML is a human-readable data serialization format. It provides a clean and concise way to represent annotations, similar to JSON but with a more readable syntax.</p>
 
 
