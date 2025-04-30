@@ -1,4 +1,4 @@
-You can efficiently manage and view your project's media with the Edit Media dialog. Select images from the grid to remove them individually, or clear all media from your project. 
+You can efficiently manage, view, and export your project's media with the Edit Media dialog. Select images from the grid to remove them individually, or clear all media from your project. 
 
 #### Removing Media
 When you remove media, the annotation information is deleted. 
