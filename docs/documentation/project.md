@@ -8,9 +8,9 @@ A project within OceanEye represents a collection of media, annotations, and mod
 
 | **Mouse Action** | **Functionality**               |
 |-------------------|---------------------------------|
-| Left Click        | Select, draw, or edit annotation |
+| Left Click        | Select, Draw, or Edit annotation |
 | Right Click       | Pan image                       |
-| Scroll Wheel      | Zoom in or out                  |
+| Scroll Wheel      | Zoom image in or out                  |
 
 !!! tip
     Annotations can alternatively be selected by clicking the corresponding row in the data table located beneath the image.
