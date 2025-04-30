@@ -38,4 +38,5 @@ nav:
     - Edit Media: documentation/edit-media.md
     - Model Training: documentation/model-training.md
     - Export Annotations: documentation/export-annotations.md
+    - Import Annotations: documentation/import-annotations.md
 
