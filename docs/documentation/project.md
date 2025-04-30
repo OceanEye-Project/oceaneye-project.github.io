@@ -4,7 +4,12 @@ A project within OceanEye represents a collection of media, annotations, and mod
 
 ## Navigation
 
-| **Shortcut**      | **Action**          |
-|-------------------|---------------------|
-| `←`/`→`  | Previous image / Next image  |
-| `n`      | New annotation               |
+| **Shortcut** | **Action**                         |
+|--------------|------------------------------------|
+| ++left++     | Previous image                     |
+| ++right++    | Next image                         |
+| ++n++        | New annotation                     |
+| ++r++        | Reset View                         |
+| ++esc++      | Cancel Drawing Annotation          |
+| ++space++    | Change Selected Annotation Class   |
+| ++del++      | Delete Selected Annotation         |

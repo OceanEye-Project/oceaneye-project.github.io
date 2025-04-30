@@ -20,6 +20,7 @@ repo_url: https://github.com/OceanEye-Project/OceanEye-QT
 markdown_extensions:
   - admonition
   - pymdownx.details
+  - pymdownx.keys
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
