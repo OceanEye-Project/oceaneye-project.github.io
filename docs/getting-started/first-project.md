@@ -32,7 +32,7 @@ Configuring a project involves defining the following settings. You will be prom
 !!! tip
     Remember to press "Apply" when you are done!
 
-## Adding media
+## [Adding media](../documentation/add-media.md)
 
 After configuration, you can begin to add media. Currently, we support the following formats:
 
@@ -59,17 +59,27 @@ If you are unhappy with a particular annotation, you may delete it with the ++de
 !!! warning
     Additional object types may not be added after project creation.
 
-## Editing Media
+## [Editing Media](../documentation/edit-media.md)
 
 While in a project, the **Edit Media** button may be selected to bring up a dialogue showing all media in the project. From here, users may quickly select a variety of images for removal from the project, or clear the project entirely.
 
-## Model Training
+## [Model Training](../documentation/model-training.md)
 
-## Exporting Data
+While training is possible on-CPU, it is strongly recommended to use a CUDA-compatible GPU to ensure time-efficient training. 
+
+Additional dependencies are installed during first training session. 
+
+!!! warning
+
+    An internet connection is required for first training session in order to download the required depencies for training.
+
+Users must provide a location for the model to be saved and also have the option to configure advances settings such as **base model** for an initial model to be used as a starting point, as well as several more parameters for fine-tuning your training session.
+
+## [Exporting Data](../documentation/export-annotations.md)
 
 Project data can be exported in several formats, from within the **File** menu. The options are as follows:
 
-1. Export annotation data as CSV, YAML, COCO or JSON: exports annotations in raw format for further analysis. 
+1. Export annotation data exports annotations in raw format (CSV, YAML, COCO or JSON) for further analysis.
 
 2. Additionally, media may be exported one-by-one with the annotations drawn-on for later human reference. Selecting this option will open a file selection dialogue where users may select the desired images to export.
 
