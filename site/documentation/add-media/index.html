@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://oceaneye-project.github.io/documentation/project/">
+        <link rel="canonical" href="https://oceaneye-project.github.io/documentation/add-media/">
       
       
-        <link rel="prev" href="../../getting-started/first-project/">
+        <link rel="prev" href="../project/">
       
       
-        <link rel="next" href="../add-media/">
+        <link rel="next" href="../edit-media/">
       
       
       <link rel="icon" href="../../assets/logo.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Project Structure - OceanEye Documentation</title>
+        <title>Adding Media - OceanEye Documentation</title>
       
     
     
@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#project" class="md-skip">
+        <a href="#behavior-of-imported-media" class="md-skip">
           Skip to content
         </a>
       
@@ -117,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Project Structure
+              Adding Media
             
           </span>
         </div>
@@ -388,6 +388,29 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../project/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Project Structure
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -397,15 +420,13 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
-      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
   
   
   <span class="md-ellipsis">
-    Project Structure
+    Adding Media
     
   </span>
   
@@ -418,7 +439,7 @@
   
   
   <span class="md-ellipsis">
-    Project Structure
+    Adding Media
     
   </span>
   
@@ -431,8 +452,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -441,28 +460,28 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#navigation" class="md-nav__link">
+  <a href="#behavior-of-imported-media" class="md-nav__link">
     <span class="md-ellipsis">
-      Navigation
+      Behavior of Imported Media
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Navigation">
+    <nav class="md-nav" aria-label="Behavior of Imported Media">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#mouse-controls" class="md-nav__link">
+  <a href="#images" class="md-nav__link">
     <span class="md-ellipsis">
-      Mouse Controls
+      Images
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#keyboard-shortcuts" class="md-nav__link">
+  <a href="#videos" class="md-nav__link">
     <span class="md-ellipsis">
-      Keyboard Shortcuts
+      Videos
     </span>
   </a>
   
@@ -473,33 +492,19 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#automatic-detection-and-filtering" class="md-nav__link">
+    <span class="md-ellipsis">
+      Automatic Detection and Filtering
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../add-media/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    Adding Media
-    
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -621,8 +626,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -631,28 +634,28 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#navigation" class="md-nav__link">
+  <a href="#behavior-of-imported-media" class="md-nav__link">
     <span class="md-ellipsis">
-      Navigation
+      Behavior of Imported Media
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Navigation">
+    <nav class="md-nav" aria-label="Behavior of Imported Media">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#mouse-controls" class="md-nav__link">
+  <a href="#images" class="md-nav__link">
     <span class="md-ellipsis">
-      Mouse Controls
+      Images
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#keyboard-shortcuts" class="md-nav__link">
+  <a href="#videos" class="md-nav__link">
     <span class="md-ellipsis">
-      Keyboard Shortcuts
+      Videos
     </span>
   </a>
   
@@ -660,6 +663,15 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#automatic-detection-and-filtering" class="md-nav__link">
+    <span class="md-ellipsis">
+      Automatic Detection and Filtering
+    </span>
+  </a>
   
 </li>
       
@@ -682,75 +694,30 @@
   
 
 
-<h1 id="project">Project</h1>
-<p>A project within OceanEye represents a collection of media, annotations, and models grouped together for analysis. It serves as a workspace where researchers can organize, explore, and interpret specific datasets.</p>
-<h2 id="navigation">Navigation</h2>
-<h3 id="mouse-controls">Mouse Controls</h3>
-<table>
-<thead>
-<tr>
-<th><strong>Mouse Action</strong></th>
-<th><strong>Functionality</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Left Click</td>
-<td>Select, draw, or edit annotation</td>
-</tr>
-<tr>
-<td>Right Click</td>
-<td>Pan image</td>
-</tr>
-<tr>
-<td>Scroll Wheel</td>
-<td>Zoom in or out</td>
-</tr>
-</tbody>
-</table>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>Annotations can alternatively be selected by clicking the corresponding row in the data table located beneath the image.</p>
+  <h1>Adding Media</h1>
+
+<p>To add media, click the <strong>Add Media</strong> button located in the main project view. A file dialog will appear, allowing you to select one or more images or videos for import.</p>
+<p>Currently, we support the following formats:</p>
+<ul>
+<li><code>.MP4</code></li>
+<li><code>.MOV</code></li>
+<li><code>.PNG</code></li>
+<li><code>.JPG</code></li>
+</ul>
+<h3 id="behavior-of-imported-media">Behavior of Imported Media</h3>
+<h4 id="images">Images</h4>
+<p>When importing images, OceanEye creates a reference link to the original files on your local filesystem.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If the images are moved or renamed after being imported, OceanEye will no longer be able to locate them. </p>
 </div>
-<h3 id="keyboard-shortcuts">Keyboard Shortcuts</h3>
-<table>
-<thead>
-<tr>
-<th><strong>Shortcut</strong></th>
-<th><strong>Action</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span class="keys"><kbd class="key-arrow-left">Left</kbd></span></td>
-<td>Previous image</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-arrow-right">Right</kbd></span></td>
-<td>Next image</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-n">N</kbd></span></td>
-<td>New annotation</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-r">R</kbd></span></td>
-<td>Reset View</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-escape">Esc</kbd></span></td>
-<td>Cancel Drawing Annotation</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-space">Space</kbd></span></td>
-<td>Change Selected Annotation Class</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-delete">Del</kbd></span></td>
-<td>Delete Selected Annotation</td>
-</tr>
-</tbody>
-</table>
+<h4 id="videos">Videos</h4>
+<p>When importing videos, OceanEye processes them by slicing the video into individual frames. These frames are extracted based on the slice interval specified in the application settings and are saved directly to the project folder.</p>
+<h3 id="automatic-detection-and-filtering">Automatic Detection and Filtering</h3>
+<ul>
+<li><strong>Detection on Import:</strong> If a detection model is loaded, OceanEye will automatically run detections on all imported images.</li>
+<li><strong>Automatic Filtering:</strong> If the <strong>Automatically Filter Dead Video</strong> option is enabled in the settings, any frames or images without detections will be excluded from the project.</li>
+</ul>
 
 
 
@@ -782,7 +749,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../../getting-started/first-project/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Creating your first project">
+          <a href="../project/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Project Structure">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -792,20 +759,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Creating your first project
+                Project Structure
               </div>
             </div>
           </a>
         
         
           
-          <a href="../add-media/" class="md-footer__link md-footer__link--next" aria-label="Next: Adding Media">
+          <a href="../edit-media/" class="md-footer__link md-footer__link--next" aria-label="Next: Edit Media">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Adding Media
+                Edit Media
               </div>
             </div>
             <div class="md-footer__button md-icon">
