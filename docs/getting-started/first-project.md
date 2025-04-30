@@ -73,4 +73,6 @@ Project data can be exported in several formats, from within the **File** menu. 
 
 2. Additionally, media may be exported one-by-one with the annotations drawn-on for later human reference. Selecting this option will open a file selection dialogue where users may select the desired images to export.
 
-Both aforementioned exporting techniques allow for filtering by class type - allowing for the minimum amount of data to be saved - as well as exporting without filter.
+
+!!! info
+    Both aforementioned exporting techniques allow for filtering by class type - allowing for the minimum amount of data to be saved - as well as exporting without any filter applied.
