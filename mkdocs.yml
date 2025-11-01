@@ -42,6 +42,7 @@ nav:
   - Getting Started:
     - Installation: getting-started/installation.md
     - Creating your first project: getting-started/first-project.md
+    - For Developers: getting-started/developer.md
   - Documentation:
     - Project Structure: documentation/project.md
     - Adding Media: documentation/add-media.md

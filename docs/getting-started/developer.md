@@ -1,4 +1,4 @@
-# Installation for Windows Developers
+# Installation for Developers -- Windows
 
 The following is a Windows developer installation guide for OceanEye.
 
