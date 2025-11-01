@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://oceaneye-project.github.io/documentation/project/">
+        <link rel="canonical" href="https://oceaneye-project.github.io/getting-started/developer/">
       
       
-        <link rel="prev" href="../../getting-started/developer/">
+        <link rel="prev" href="../first-project/">
       
       
-        <link rel="next" href="../add-media/">
+        <link rel="next" href="../../documentation/project/">
       
       
       <link rel="icon" href="../../assets/logo.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Project Structure - OceanEye Documentation</title>
+        <title>For Developers - OceanEye Documentation</title>
       
     
     
@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#project" class="md-skip">
+        <a href="#installation-for-developers-windows" class="md-skip">
           Skip to content
         </a>
       
@@ -117,7 +117,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Project Structure
+              For Developers
             
           </span>
         </div>
@@ -255,20 +255,20 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -284,7 +284,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Getting Started
@@ -298,7 +298,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../getting-started/installation/" class="md-nav__link">
+      <a href="../installation/" class="md-nav__link">
         
   
   
@@ -321,7 +321,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../getting-started/first-project/" class="md-nav__link">
+      <a href="../first-project/" class="md-nav__link">
         
   
   
@@ -336,76 +336,6 @@
   
 
               
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../getting-started/developer/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    For Developers
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-    
-  
-  
-  
-    
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
-        
-          
-          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
-            
-  
-  
-  <span class="md-ellipsis">
-    Documentation
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_3">
-            <span class="md-nav__icon md-icon"></span>
-            Documentation
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
             
               
                 
@@ -428,7 +358,7 @@
   
   
   <span class="md-ellipsis">
-    Project Structure
+    For Developers
     
   </span>
   
@@ -441,7 +371,7 @@
   
   
   <span class="md-ellipsis">
-    Project Structure
+    For Developers
     
   </span>
   
@@ -464,28 +394,55 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#navigation" class="md-nav__link">
+  <a href="#requirements" class="md-nav__link">
     <span class="md-ellipsis">
-      Navigation
+      Requirements
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Navigation">
+    <nav class="md-nav" aria-label="Requirements">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#mouse-controls" class="md-nav__link">
+  <a href="#msys2-and-mingw-compiler" class="md-nav__link">
     <span class="md-ellipsis">
-      Mouse Controls
+      Msys2 and MinGW Compiler
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#keyboard-shortcuts" class="md-nav__link">
+  <a href="#ninja" class="md-nav__link">
     <span class="md-ellipsis">
-      Keyboard Shortcuts
+      Ninja
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cmake" class="md-nav__link">
+    <span class="md-ellipsis">
+      CMake
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vcpkg" class="md-nav__link">
+    <span class="md-ellipsis">
+      VCPKG
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#opencv" class="md-nav__link">
+    <span class="md-ellipsis">
+      OpenCV
     </span>
   </a>
   
@@ -493,6 +450,24 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation-and-building" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installation and Building
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tips
+    </span>
+  </a>
   
 </li>
       
@@ -505,6 +480,53 @@
 
               
             
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Documentation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Documentation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
               
                 
   
@@ -512,7 +534,30 @@
   
   
     <li class="md-nav__item">
-      <a href="../add-media/" class="md-nav__link">
+      <a href="../../documentation/project/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Project Structure
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../documentation/add-media/" class="md-nav__link">
         
   
   
@@ -535,7 +580,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../edit-media/" class="md-nav__link">
+      <a href="../../documentation/edit-media/" class="md-nav__link">
         
   
   
@@ -558,7 +603,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../model-training/" class="md-nav__link">
+      <a href="../../documentation/model-training/" class="md-nav__link">
         
   
   
@@ -581,7 +626,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../export-annotations/" class="md-nav__link">
+      <a href="../../documentation/export-annotations/" class="md-nav__link">
         
   
   
@@ -604,7 +649,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../import-annotations/" class="md-nav__link">
+      <a href="../../documentation/import-annotations/" class="md-nav__link">
         
   
   
@@ -654,28 +699,55 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#navigation" class="md-nav__link">
+  <a href="#requirements" class="md-nav__link">
     <span class="md-ellipsis">
-      Navigation
+      Requirements
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Navigation">
+    <nav class="md-nav" aria-label="Requirements">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#mouse-controls" class="md-nav__link">
+  <a href="#msys2-and-mingw-compiler" class="md-nav__link">
     <span class="md-ellipsis">
-      Mouse Controls
+      Msys2 and MinGW Compiler
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#keyboard-shortcuts" class="md-nav__link">
+  <a href="#ninja" class="md-nav__link">
     <span class="md-ellipsis">
-      Keyboard Shortcuts
+      Ninja
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cmake" class="md-nav__link">
+    <span class="md-ellipsis">
+      CMake
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vcpkg" class="md-nav__link">
+    <span class="md-ellipsis">
+      VCPKG
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#opencv" class="md-nav__link">
+    <span class="md-ellipsis">
+      OpenCV
     </span>
   </a>
   
@@ -683,6 +755,24 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation-and-building" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installation and Building
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tips
+    </span>
+  </a>
   
 </li>
       
@@ -705,75 +795,53 @@
   
 
 
-<h1 id="project">Project</h1>
-<p>A project within OceanEye represents a collection of media, annotations, and models grouped together for analysis. It serves as a workspace where researchers can organize, explore, and interpret specific datasets.</p>
-<h2 id="navigation">Navigation</h2>
-<h3 id="mouse-controls">Mouse Controls</h3>
-<table>
-<thead>
-<tr>
-<th><strong>Mouse Action</strong></th>
-<th><strong>Functionality</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Left Click</td>
-<td>Select, Draw, or Edit annotation</td>
-</tr>
-<tr>
-<td>Right Click</td>
-<td>Pan image</td>
-</tr>
-<tr>
-<td>Scroll Wheel</td>
-<td>Zoom image in or out</td>
-</tr>
-</tbody>
-</table>
-<div class="admonition tip">
-<p class="admonition-title">Tip</p>
-<p>Annotations can alternatively be selected by clicking the corresponding row in the data table located beneath the image.</p>
-</div>
-<h3 id="keyboard-shortcuts">Keyboard Shortcuts</h3>
-<table>
-<thead>
-<tr>
-<th><strong>Shortcut</strong></th>
-<th><strong>Action</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span class="keys"><kbd class="key-arrow-left">Left</kbd></span></td>
-<td>Previous image</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-arrow-right">Right</kbd></span></td>
-<td>Next image</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-n">N</kbd></span></td>
-<td>New annotation</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-r">R</kbd></span></td>
-<td>Reset View</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-escape">Esc</kbd></span></td>
-<td>Cancel Drawing Annotation</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-space">Space</kbd></span></td>
-<td>Change Selected Annotation Class</td>
-</tr>
-<tr>
-<td><span class="keys"><kbd class="key-delete">Del</kbd></span></td>
-<td>Delete Selected Annotation</td>
-</tr>
-</tbody>
-</table>
+<h1 id="installation-for-developers-windows">Installation for Developers -- Windows</h1>
+<p>The following is a Windows developer installation guide for OceanEye.</p>
+<h2 id="requirements">Requirements</h2>
+<h3 id="msys2-and-mingw-compiler"><a href="https://www.msys2.org/">Msys2 and MinGW Compiler</a></h3>
+<p>Download the msys2 installer.
+Once done, open the MinGW shell and run the following:</p>
+<p><div class="highlight"><pre><span></span><code>$ pacman -S mingw-w64-x86_64-gcc
+</code></pre></div>
+After this, put the path to the MinGW compiler on the Path environment variable. An example directory is: C:\msys64\mingw64\bin</p>
+<!-- Other packages that may be needed: perl-modules libraries base-devel mingw-w64-x86_64-gdb mingw-w64-x86_64-gdb-multiarch mingw-w64-x86_64-postgresql -->
+
+<h3 id="ninja"><a href="https://github.com/ninja-build/ninja/releases">Ninja</a></h3>
+<ol>
+<li>Download ninja-win.zip</li>
+<li>Extract it</li>
+<li>Put path to the folder the ninja.exe is in onto the Path environment variable</li>
+</ol>
+<h3 id="cmake"><a href="https://cmake.org/download/">CMake</a></h3>
+<p>Install using installer.
+CMake will automatically put itself into the Path environment variable, but you must make sure that its Path comes before the MinGW compiler Path. Otherwise, issues may occur.</p>
+<h3 id="vcpkg"><a href="https://github.com/microsoft/vcpkg">VCPKG</a></h3>
+<p><div class="highlight"><pre><span></span><code>git clone https://github.com/microsoft/vcpkg
+cd ./vcpkg
+./vcpkg-bootstrap.bat
+</code></pre></div>
+Follow this up by putting the path to the vcpkg folder in the path environment variable.</p>
+<p>A good introduction for vcpkg is <a href="https://learn.microsoft.com/en-us/vcpkg/get_started/get-started?pivots=shell-powershell">here</a>.</p>
+<h3 id="opencv"><a href="https://github.com/opencv/opencv/releases/tag/4.11.0">OpenCV</a></h3>
+<p>Need to install this to get the opencv_videoio_ffmpeg4110_64.dll. Download the .exe installer and run it. It doesn't matter where you install opencv to, all we need is the dll it provides.</p>
+<h2 id="installation-and-building">Installation and Building</h2>
+<p>Download the OceanEye repository.</p>
+<div class="highlight"><pre><span></span><code>git clone https://github.com/OceanEye-Project/OceanEye-QT
+</code></pre></div>
+<p>Inside the project directory, to build the project you'll need run cmake using the CMakePresets.json. This step will take a while as VCPKG has to download and compile all the libraries that OceanEye will need.</p>
+<div class="highlight"><pre><span></span><code>cmake --preset=default
+</code></pre></div>
+<p>After that, we link the code together to the OceanEye executable.</p>
+<div class="highlight"><pre><span></span><code>cmake --build build
+</code></pre></div>
+<p>After this, OceanEye is almost ready to use. lastly, we have to put the opencv ffmpeg dll into the same folder as the OceanEye executable so that OceanEye can properly detect objects in videos.</p>
+<p>Access the opencv_videoio_ffmpeg4110_64.dll file by going to extracted folder opencv &gt; build &gt; bin. Copy the file into OceanEye build folder.</p>
+<p>After this, OceanEye is ready to use!</p>
+<h2 id="tips">Tips</h2>
+<ul>
+<li>Having more than one C/C++ compiler on your Path can cause Windows to try and use the wrong compiler for the project. The same goes for multiple installations of CMake.</li>
+<li>Keep your paths short, otherwise there will be issues building some of the packages.</li>
+</ul>
 
 
 
@@ -805,7 +873,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../../getting-started/developer/" class="md-footer__link md-footer__link--prev" aria-label="Previous: For Developers">
+          <a href="../first-project/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Creating your first project">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -815,20 +883,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                For Developers
+                Creating your first project
               </div>
             </div>
           </a>
         
         
           
-          <a href="../add-media/" class="md-footer__link md-footer__link--next" aria-label="Next: Adding Media">
+          <a href="../../documentation/project/" class="md-footer__link md-footer__link--next" aria-label="Next: Project Structure">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Adding Media
+                Project Structure
               </div>
             </div>
             <div class="md-footer__button md-icon">
